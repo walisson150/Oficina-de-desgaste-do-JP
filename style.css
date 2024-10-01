@@ -1,29 +1,29 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Cor de fundo suave */
   margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #f0f0f0;
   padding: 20px;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+h1 {
+  color: #333; /* Cor do título */
+  text-align: center;
 }
 
-nav li {
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  margin-right: 10px;
-}
-
-section {
-  padding: 50px;
-}
-
-img {
-  max-width: 100%;
+  font-size: 16px;
 }
